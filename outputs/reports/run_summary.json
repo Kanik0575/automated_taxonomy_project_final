@@ -1,0 +1,38 @@
+{
+  "corpus_size": 100,
+  "n_features_total": 3964,
+  "n_features_selected_by_ga": 139,
+  "baseline_silhouette": 0.04429090824391355,
+  "ga_silhouette": 0.11748153653327281,
+  "silhouette_improvement": 0.07319062828935927,
+  "n_clusters": 7,
+  "silhouette_sweep": {
+    "4": 0.03715720597995484,
+    "5": 0.03401667213550575,
+    "6": 0.04521720181763524,
+    "7": 0.04429090824391355,
+    "8": 0.04827717874778041,
+    "9": 0.04614198260031877,
+    "10": 0.06369722459736027
+  },
+  "ga_runtime_seconds": 0.6807029247283936,
+  "random_seed": 42,
+  "cluster_sizes": {
+    "0": 60,
+    "1": 3,
+    "2": 24,
+    "3": 2,
+    "4": 3,
+    "5": 3,
+    "6": 5
+  },
+  "cluster_labels": {
+    "0": "Unclassified (inspect top terms)",
+    "1": "Unclassified (inspect top terms)",
+    "2": "Unclassified (inspect top terms)",
+    "3": "Unclassified (inspect top terms)",
+    "4": "Unclassified (inspect top terms)",
+    "5": "Unclassified (inspect top terms)",
+    "6": "Unclassified (inspect top terms)"
+  }
+}
